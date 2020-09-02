@@ -23,7 +23,7 @@ class legends:
                  █▲▲▲▲▲
                  █████████ LEARNCODE
                   ██ ██\n"""
-           return logo
+           print logo
 
     def hacks(self):
            self.logos()
