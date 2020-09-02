@@ -13,7 +13,20 @@ class legends:
            self.ass="/assets"
            self.doca="/Document/android"
 
+    def logos(self):
+           os.system('clear')
+           logo="""
+                 █████████
+                 █▄█████▄█
+                 █▼▼▼▼▼
+                 █ MOBILE LEGENDS ENEMYS HACK
+                 █▲▲▲▲▲
+                 █████████ LEARNCODE
+                  ██ ██\n"""
+           return logo
+
     def hacks(self):
+           self.logos()
            os.system(self.copy+' src/AIHeroPerRoundLimit_MC.unity3d '+self.storage+self.android+self.data+self.ml+self.fl+self.dr+self.ass+self.doca)
            os.system(self.copy+' src/AIRoundLevelUp_MC.unity3d '+self.storage+self.android+self.data+self.ml+self.fl+self.dr+self.ass+self.doca)
            os.system(self.copy+' src/BattleConfig.unity3d '+self.storage+self.android+self.data+self.ml+self.fl+self.dr+self.ass+self.doca)
